@@ -1,58 +1,23 @@
 <div id='HeaderZone' ismodulecontainer='true'
     class='HeaderContainer HeaderZoneContainer ZoneContainer HeaderZone ModuleContainer clearfix '>
-    <div class="ModuleItem  StaticModule  mhidden-xs" wo="1678" id="module_416823978">
-        <div class="ModuleHorizontalGiant layout-101 layout-color- module_416823978 clearfix">
-            <!-- 主体 -->
-            <div class='BodyCenter BodyCenter416823978 clearfix'>
-                <div class="hrbox">
-                    <hr class="hr-line" />
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <div class="ModuleItem  StaticModule  " wo="1678" id="module_416828595">
-        <div class="ModuleCustomCodeGiant layout-101 layout-color- module_416828595 clearfix">
-            <!-- 主体 -->
-            <div class='BodyCenter BodyCenter416828595 clearfix'></div>
-        </div>
-
-    </div>
-    <div class="ModuleItem  StaticModule  " wo="1678" id="module_416829361">
-        <div class="ModuleCustomCodeGiant layout-101 layout-color- module_416829361 clearfix">
-            <!-- 主体 -->
-            <div class='BodyCenter BodyCenter416829361 clearfix'></div>
-        </div>
-
-    </div>
     <div class="ModuleItem  StaticModule  mhidden-xs" wo="1678" id="module_502260665">
         <div class="ModuleGridGiant layout-101 layout-color- module_502260665 clearfix">
-            <!-- 主体 -->
             <div class='BodyCenter BodyCenter502260665 clearfix'>
                 <div class='ModuleGridContainer  ModuleGridContainer502260665' gridswidthmode='1'>
                     <div class='row ModuleSubContainer'>
-                        <div class="gridBgVideo noBgVideo"><video src="" class="bgVideo" autoplay="autoplay"
-                                loop="loop"></video>
-                            <div class="bgVideoMask"></div>
-                        </div>
                         <div id='Sub502260665_1'
                             class='ModuleContainer SubContainer ModuleGridItem     col-xs-12 col-sm-12 col-md-12 col-lg-12'
                             positiontype='2' ismodulecontainer='true'>
                             <div class="ModuleItem  StaticModule  " wo="1678" id="module_502260672">
                                 <div class="ModuleCustomCodeGiant layout-101 layout-color- module_502260672 clearfix">
-                                    <!-- 主体 -->
                                     <div class='BodyCenter BodyCenter502260672 clearfix'>
-                                        <link rel="stylesheet" type="text/css"
-                                            href="https://cdn-cloudflare.meidianbang.cn/comdata/81833/202408/caidan25.css" />
                                         <div class="nav-main" style="display: flex; justify-content: space-between;">
                                             <div class="nav-left">
                                                 <div style="width: 4vw"></div>
                                                 <section class="nav-logo">
                                                     <a class="nav-link" href="/ ">
                                                         <img class="nav-img"
-                                                            src="https://cdn-cloudflare.meidianbang.cn/images/imgbg.png"
-                                                            data-src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/202308/202308011456390e5da6.png"
-                                                            data-src="/comdata/81833/202308/202308011456390e5da6.png"
+                                                            src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/202308/202308011456390e5da6.png"
                                                             style="width: 130px; background: none;">
                                                     </a>
                                                 </section>
@@ -68,9 +33,7 @@
                                                                 <div class="product">
                                                                     <div>
                                                                         <img class="product-img"
-                                                                            src="https://cdn-cloudflare.meidianbang.cn/images/imgbg.png"
-                                                                            data-src="https://cdn-cloudflare.meidianbang.cn/comdata/99450/202306/202306201119298a0443.png"
-                                                                            data-src="/comdata/99450/202306/202306201119298a0443.png"
+                                                                            src="https://cdn-cloudflare.meidianbang.cn/comdata/99450/202306/202306201119298a0443.png"
                                                                             style="background: none;">
                                                                     </div>
                                                                     <div class="product-text">
@@ -87,9 +50,7 @@
                                                                 <div class="product">
                                                                     <div>
                                                                         <img class="product-img"
-                                                                            src="https://cdn-cloudflare.meidianbang.cn/images/imgbg.png"
-                                                                            data-src="https://cdn-cloudflare.meidianbang.cn/comdata/99450/202306/20230620112121335586.png"
-                                                                            data-src="/comdata/99450/202306/20230620112121335586.png"
+                                                                            src="https://cdn-cloudflare.meidianbang.cn/comdata/99450/202306/20230620112121335586.png"
                                                                             style="background: none;">
                                                                     </div>
                                                                     <div class="product-text">
@@ -117,9 +78,7 @@
                                                                 <div class="product">
                                                                     <div>
                                                                         <img class="product-img"
-                                                                            src="https://cdn-cloudflare.meidianbang.cn/images/imgbg.png"
-                                                                            data-src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/202407/20240711172158fb6971.png"
-                                                                            data-src="/comdata/81833/202407/20240711172158fb6971.png"
+                                                                            src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/202407/20240711172158fb6971.png"
                                                                             style="background: none;">
                                                                     </div>
                                                                     <div class="product-text">
@@ -134,9 +93,7 @@
                                                                 <div class="product">
                                                                     <div>
                                                                         <img class="product-img"
-                                                                            src="https://cdn-cloudflare.meidianbang.cn/images/imgbg.png"
-                                                                            data-src="https://cdn-cloudflare.meidianbang.cn/comdata/99450/202306/20230620111929e2e802.png"
-                                                                            data-src="/comdata/99450/202306/20230620111929e2e802.png"
+                                                                            src="https://cdn-cloudflare.meidianbang.cn/comdata/99450/202306/20230620111929e2e802.png"
                                                                             style="background: none;">
                                                                     </div>
                                                                     <div class="product-text">
@@ -147,10 +104,7 @@
 
                                                                     </div>
                                                                 </div>
-
-
                                                             </div>
-
                                                         </div>
                                                     </div>
                                                     <div class="menu">
@@ -163,9 +117,7 @@
                                                                     <div class="tip-item">
                                                                         <div>
                                                                             <img class="product-img"
-                                                                                src="https://cdn-cloudflare.meidianbang.cn/images/imgbg.png"
-                                                                                data-src="https://cdn-cloudflare.meidianbang.cn/comdata/99450/202306/2023062011394031d908.jpg"
-                                                                                data-src="/comdata/99450/202306/2023062011394031d908.jpg"
+                                                                                src="https://cdn-cloudflare.meidianbang.cn/comdata/99450/202306/2023062011394031d908.jpg"
                                                                                 style="background: none;">
                                                                         </div>
                                                                         <div class="tip-text">
@@ -181,9 +133,7 @@
                                                                     <div class="tip-item">
                                                                         <div>
                                                                             <img class="product-img"
-                                                                                src="https://cdn-cloudflare.meidianbang.cn/images/imgbg.png"
-                                                                                data-src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/202308/20230801104916daa2c2.jpg"
-                                                                                data-src="/comdata/81833/202308/20230801104916daa2c2.jpg"
+                                                                                src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/202308/20230801104916daa2c2.jpg"
                                                                                 style="background: none;">
                                                                         </div>
                                                                         <div class="tip-text">
@@ -200,9 +150,7 @@
                                                                     <div class="tip-item">
                                                                         <div>
                                                                             <img class="product-img"
-                                                                                src="https://cdn-cloudflare.meidianbang.cn/images/imgbg.png"
-                                                                                data-src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/202308/202308011055058572f6.jpg"
-                                                                                data-src="/comdata/81833/202308/202308011055058572f6.jpg"
+                                                                                src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/202308/202308011055058572f6.jpg"
                                                                                 style="background: none;">
                                                                         </div>
                                                                         <div class="tip-text">
@@ -258,24 +206,7 @@
                         <div class='clearfix visible-xs'></div>
                     </div>
                 </div>
-                <script type="text/javascript">
-                    addScript('/skinp/modules/ModuleGridGiant/modulegrid.js', function() {
-                        initGridGiant("502260665", {
-                            isFloat: "0",
-                            floattype: "",
-                            floattop: "",
-                            floatbgtype: "",
-                            floatbgcolor: "",
-                            floatheight: "",
-                            floatheighttype: "",
-                            floatpagetype: "",
-                            applicationpageid: "",
-                            applicationpagetype: ""
-                        });
-                    });
-                </script>
             </div>
         </div>
-
     </div>
 </div>

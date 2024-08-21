@@ -25,7 +25,7 @@
     </div>
 
 </div>
-<div class="ModuleItem StaticModule mb-5" wo="2970" id="module_504703326">
+<div class="ModuleItem StaticModule" style="margin-bottom: 50px" wo="2970" id="module_504703326">
     <div class="ModuleGridGiant layout-101 layout-color-module_504703326 clearfix">
         <div class='BodyCenter BodyCenter504703326 clearfix'>
             <div class='ModuleGridContainer  ModuleGridContainer504703326' gridswidthmode='0'>
@@ -45,8 +45,7 @@
                                                 <div class="album-img-c">
                                                     <div class="dummy"></div>
                                                     <div class="mobile_picBox">
-                                                        <img src="https://cdn-cloudflare.meidianbang.cn/images/imgbg.png"
-                                                            data-src="{{ $product->getFirstMediaUrl('cover') }}"
+                                                        <img src="{{ $product->getFirstMediaUrl('cover') }}"
                                                             alt="{{ $product->title }}" title="{{ $product->title }}"
                                                             class="mobile_pic mobile_pic_B">
                                                     </div>

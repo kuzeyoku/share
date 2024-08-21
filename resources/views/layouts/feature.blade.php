@@ -1,41 +1,34 @@
-<div class="ModuleItem  StaticModule  mhidden-xs mb-5" wo="2970" id="module_416823943">
+<div style="margin-bottom:30px;" class="ModuleItem StaticModule mhidden-xs" wo="2970" id="module_416823943">
     <div class="ModuleGridGiant layout-101 layout-color- module_416823943 clearfix">
-        <!-- 主体 -->
         <div class='BodyCenter BodyCenter416823943 clearfix'>
             <div class='ModuleGridContainer  ModuleGridContainer416823943' gridswidthmode='0'>
                 <div class='row ModuleSubContainer'>
-                    <div class="gridBgVideo noBgVideo"><video src="" class="bgVideo" autoplay="autoplay"
-                            loop="loop"></video>
-                        <div class="bgVideoMask"></div>
-                    </div>
                     <div id='Sub416823943_1'
                         class='ModuleContainer SubContainer ModuleGridItem     col-xs-12 col-sm-7 col-md-7 col-lg-7'
                         positiontype='2' ismodulecontainer='true'>
-                        <div class="ModuleItem wow fadeInUp StaticModule  " wo="817" id="module_416824143"
+                        <div class="ModuleItem wow fadeInUp StaticModule" wo="817" id="module_416824143"
                             data-wow-duration="2.5s">
                             <div class="ModuleImageTextGiant layout-101 layout-color-red module_416824143 clearfix">
-                                <!-- 主体 -->
                                 <div class='BodyCenter BodyCenter416824143 clearfix'>
                                     <div class="imageTextGiant-Container imageTextContainer clearfix"
                                         show_more='Show More' hasresponsive="1" autohideype="0" autohide="0"
                                         hideheight="150" hidewidth="760">
                                         <div class="ModuleImageTextGiantContent ModuleImageTextContent">
-                                            <p style="line-height: 3em;"><span style="font-size:32px;"><span
+                                            <div style="margin-bottom:40px"><span style="font-size:32px;"><span
                                                         style="font-family:arial,helvetica,sans-serif;"><strong><span
                                                                 style="color: rgb(255, 255, 255); line-height: 150%;">@lang('front/feature.txt1')</span></strong></span></span>
-                                            </p>
+                                            </div>
 
-                                            <p><span style="font-size:18px;"><span
-                                                        style="color:#ffffff;">@lang('front/feature.txt2')</span></span></p>
-
-                                            <p><span style="font-size:18px;">
-                                                    <span style="color:#ffffff;">@lang('front/feature.txt3')
-                                                    </span>
-                                                </span></p>
-
-                                            <p><span style="font-size:18px;">
-                                                    <span style="color:#ffffff;">@lang('front/feature.txt4')</span>
-                                                </span></p>
+                                            <div style="margin-bottom:20px;"><span
+                                                    style="font-size:18px; color:#ffffff;">@lang('front/feature.txt2')</span>
+                                            </div>
+                                            <div style="margin-bottom:20px;">
+                                                <span style="font-size:18px; color:#ffffff;">@lang('front/feature.txt3')
+                                                </span>
+                                            </div>
+                                            <div style="margin-bottom:20px;">
+                                                <span style="font-size:18px; color:#ffffff;">@lang('front/feature.txt4')</span>
+                                            </div>
 
                                         </div>
                                     </div>
@@ -47,12 +40,10 @@
                             data-wow-duration="2.5s">
                             <div class="ModuleImageGiant layout-101 layout-color-module_480353912 clearfix">
                                 <div class='BodyCenter BodyCenter480353912 clearfix'>
-                                    <img class="image-animation"
-                                        src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/202308/20230803101540f56197.png"
-                                        width="75%" />
+                                    <img style="padding-right: 80px" class="image-animation"
+                                        src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/202308/20230803101540f56197.png" />
                                 </div>
                             </div>
-
                         </div>
                     </div>
                     <div class='clearfix visible-xs'></div>
@@ -71,8 +62,7 @@
                                                 <a target="_self" href="javascript:;"
                                                     style="cursor: default;display:block;">
                                                     <img class="TextImage image-animation"
-                                                        src="https://cdn-cloudflare.meidianbang.cn/images/imgbg.png"
-                                                        data-src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/201903/20190318164552204862.png"
+                                                        src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/201903/20190318164552204862.png"
                                                         title="" alt="">
                                                 </a>
                                             </div>
@@ -104,8 +94,7 @@
                                                 <a target="_self" href="javascript:;"
                                                     style="cursor: default;display:block;">
                                                     <img class="TextImage image-animation"
-                                                        src="https://cdn-cloudflare.meidianbang.cn/images/imgbg.png"
-                                                        data-src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/201903/201903181645523121f1.png"
+                                                        src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/201903/201903181645523121f1.png"
                                                         title="" alt="">
                                                 </a>
                                             </div>
@@ -131,8 +120,7 @@
                                                 <a target="_self" href="javascript:;"
                                                     style="cursor: default;display:block;">
                                                     <img class="TextImage image-animation"
-                                                        src="https://cdn-cloudflare.meidianbang.cn/images/imgbg.png"
-                                                        data-src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/201903/20190318164552e26386.png"
+                                                        src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/201903/20190318164552e26386.png"
                                                         title="" alt="">
                                                 </a>
                                             </div>
@@ -159,8 +147,7 @@
                                                 <a target="_self" href="javascript:;"
                                                     style="cursor: default;display:block;">
                                                     <img class="TextImage image-animation"
-                                                        src="https://cdn-cloudflare.meidianbang.cn/images/imgbg.png"
-                                                        data-src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/202109/20210929151808d75247.png"
+                                                        src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/202109/20210929151808d75247.png"
                                                         title="" alt="">
                                                 </a>
                                             </div>
@@ -187,8 +174,7 @@
                                                 <a target="_self" href="javascript:;"
                                                     style="cursor: default;display:block;">
                                                     <img class="TextImage image-animation"
-                                                        src="https://cdn-cloudflare.meidianbang.cn/images/imgbg.png"
-                                                        data-src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/202109/20210929151755ae4c64.png"
+                                                        src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/202109/20210929151755ae4c64.png"
                                                         title="" alt="">
                                                 </a>
                                             </div>
@@ -225,22 +211,6 @@
                     <div class='clearfix visible-xs'></div>
                 </div>
             </div>
-            <script type="text/javascript">
-                addScript('/skinp/modules/ModuleGridGiant/modulegrid.js', function() {
-                    initGridGiant("416823943", {
-                        isFloat: "0",
-                        floattype: "",
-                        floattop: "",
-                        floatbgtype: "",
-                        floatbgcolor: "",
-                        floatheight: "",
-                        floatheighttype: "",
-                        floatpagetype: "",
-                        applicationpageid: "",
-                        applicationpagetype: ""
-                    });
-                });
-            </script>
         </div>
     </div>
 

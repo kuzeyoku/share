@@ -13,7 +13,7 @@ class SettingService
     public static function getAll(): Collection
     {
         return Cache::remember("settings", config("cache.time"), function () {
-            return Setting::get();
+            return Setting::all();
         });
     }
 

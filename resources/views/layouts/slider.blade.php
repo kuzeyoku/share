@@ -33,7 +33,7 @@
                     <div class="slider-layout-content">
                         <a href="{{ $slider->url }}" title="" target="_self">
                             <div class="slide-box">
-                                <img class="swiperImg" src="https://cdn-cloudflare.meidianbang.cn/images/imgbg.png"
+                                <img class="swiperImg" src="{{ $slider->getFirstMediaUrl('cover') }}"
                                     data-src="{{ $slider->getFirstMediaUrl('cover') }}" alt="{{ $slider->title }}"
                                     title="{{ $slider->title }}" />
                             </div>

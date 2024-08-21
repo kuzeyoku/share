@@ -76,7 +76,6 @@
                             positiontype='2' ismodulecontainer='true'>
                             <div class="ModuleItem  StaticModule  " wo="336" id="module_502269892">
                                 <div class="ModuleImageTextGiant layout-101 layout-color-red module_502269892 clearfix">
-                                    <!-- 主体 -->
                                     <div class='BodyCenter BodyCenter502269892 clearfix'>
                                         <div class="imageTextGiant-Container imageTextContainer clearfix"
                                             show_more='Show More' hasresponsive="1" autohideype="0" autohide="0"
@@ -288,9 +287,7 @@
                                     <div class='BodyCenter BodyCenter502269897 clearfix'><a
                                             href="https://wa.me/qr/N2ZOSM74LDQAF1" target="">
                                             <img class="image-animation"
-                                                src="https://cdn-cloudflare.meidianbang.cn/images/imgbg.png"
-                                                data-src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/icontemp/202308/20230801161427891.png"
-                                                url="/comdata/81833/icontemp/202308/20230801161427891.png"
+                                                src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/icontemp/202308/20230801161427891.png"
                                                 alt="图片展示" />
                                         </a>
                                     </div>
@@ -304,9 +301,7 @@
                                             href="https://www.facebook.com/Shareuav-Technology-101610479325096"
                                             target="">
                                             <img class="image-animation"
-                                                src="https://cdn-cloudflare.meidianbang.cn/images/imgbg.png"
-                                                data-src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/icontemp/202308/20230801161553140.png"
-                                                url="/comdata/81833/icontemp/202308/20230801161553140.png"
+                                                src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/icontemp/202308/20230801161553140.png"
                                                 alt="图片展示" />
                                         </a>
                                     </div>
@@ -319,9 +314,7 @@
                                     <div class='BodyCenter BodyCenter502269895 clearfix'><a
                                             href="https://www.youtube.com/c/SHAREUAV" target="">
                                             <img class="image-animation"
-                                                src="https://cdn-cloudflare.meidianbang.cn/images/imgbg.png"
-                                                data-src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/icontemp/202308/20230801161611975.png"
-                                                url="/comdata/81833/icontemp/202308/20230801161611975.png"
+                                                src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/icontemp/202308/20230801161611975.png"
                                                 alt="图片展示" />
                                         </a>
                                     </div>
@@ -333,57 +326,39 @@
                         <div class='clearfix visible-xs'></div>
                     </div>
                 </div>
-                <script type="text/javascript">
-                    addScript('/skinp/modules/ModuleGridGiant/modulegrid.js', function() {
-                        initGridGiant("502269890", {
-                            isFloat: "0",
-                            floattype: "",
-                            floattop: "",
-                            floatbgtype: "",
-                            floatbgcolor: "",
-                            floatheight: "",
-                            floatheighttype: "",
-                            floatpagetype: "",
-                            applicationpageid: "",
-                            applicationpagetype: ""
-                        });
-                    });
-                </script>
             </div>
         </div>
 
     </div>
     <div class="ModuleItem  StaticModule  mhidden-xs" wo="1678" id="module_416823912">
         <div class="ModuleGridGiant layout-101 layout-color- module_416823912 clearfix">
-            <!-- 主体 -->
             <div class='BodyCenter BodyCenter416823912 clearfix'>
                 <div class='ModuleGridContainer  ModuleGridContainer416823912' gridswidthmode='0'>
                     <div class='row ModuleSubContainer'>
-                        <div class="gridBgVideo noBgVideo"><video src="" class="bgVideo" autoplay="autoplay"
-                                loop="loop"></video>
-                            <div class="bgVideoMask"></div>
-                        </div>
                         <div id='Sub416823912_1'
                             class='ModuleContainer SubContainer ModuleGridItem     col-xs-12 col-sm-12 col-md-12 col-lg-12'
                             positiontype='2' ismodulecontainer='true'>
                             <div class="ModuleItem  StaticModule  " wo="1400" id="module_416824236">
                                 <div class="ModulePlainTextGiant layout-101 layout-color- module_416824236 clearfix">
-                                    <!-- 主体 -->
                                     <div class='BodyCenter BodyCenter416824236 clearfix'>
                                         <div class="plainTextGiant-Container imageTextContainer clearfix"
                                             hasresponsive="1" hidewidth="760">
                                             <div class="ModulePlainTextGiantContent ModuleImageTextContent">
-                                                <p style="text-align: center;"><span style="color:#d3d3d3;"><span
-                                                            style="font-size:10px;"><span
-                                                                style="font-family:Microsoft YaHei;"><span
-                                                                    style="line-height:1;">Copyright @
-                                                                    2022 </span>SHAREUAV&nbsp;LTD<span
-                                                                    style="line-height:1;">.All Rights
-                                                                    Reserved&nbsp; </span><span
-                                                                    style="line-height: 150%;">&nbsp;</span><span
-                                                                    style="line-height:1;"> &nbsp;
-                                                                    &nbsp;</span></span></span></span></p>
-
+                                                <p style="text-align: center;">
+                                                    <span style="color:#d3d3d3;">
+                                                        <span style="font-size:10px;">
+                                                            <span style="font-family:Microsoft YaHei;">
+                                                                <span style="line-height:1;">
+                                                                    Copyright @ 2022 </span>SHAREUAV&nbsp;LTD
+                                                                <span style="line-height:1;">.All Rights
+                                                                    Reserved&nbsp; </span>
+                                                                <span style="line-height: 150%;">&nbsp;</span>
+                                                                <span style="line-height:1;"> &nbsp;
+                                                                    &nbsp;</span>
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -395,24 +370,7 @@
                         <div class='clearfix visible-xs'></div>
                     </div>
                 </div>
-                <script type="text/javascript">
-                    addScript('/skinp/modules/ModuleGridGiant/modulegrid.js', function() {
-                        initGridGiant("416823912", {
-                            isFloat: "0",
-                            floattype: "",
-                            floattop: "",
-                            floatbgtype: "",
-                            floatbgcolor: "",
-                            floatheight: "",
-                            floatheighttype: "",
-                            floatpagetype: "",
-                            applicationpageid: "",
-                            applicationpagetype: ""
-                        });
-                    });
-                </script>
             </div>
         </div>
-
     </div>
 </div>
