@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/bootstrap.min.css') }}" type="text/css" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/ModuleStyleMobile.css') }}" type="text/css" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/ModuleMobileNavTpl.css') }}" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/font-awesome.min.css') }}" type="text/css">
-    <link rel="stylesheet" href="https://cdn-cloudflare.meidianbang.cn/scripts/iconfont/iconfont.css" type="text/css" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/slick-theme.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/slick.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/swiper.min.css') }}" type="text/css" />
@@ -29,7 +29,7 @@
         var DesignType = "";
         window.ScriptCdn = "https://cdn-cloudflare.meidianbang.cn";
     </script>
-    <script src="https://cdn-cloudflare.meidianbang.cn/PageJs.js?act=MobileJs&v=20240812-1"></script>
+    <script src="{{ themeAsset('front', 'js/PageJs.js?act=MobileJs&v=20240812-1') }}"></script>
 </head>
 
 <body id="page_310701" class="module_bg_color">
@@ -66,16 +66,8 @@
                     </style>
                     <div class="online-service-giant-btn online-service-giant-Contacts-btn" target="contact"><i
                             class="iconfont icon-dianhua2"></i></div>
-                    <div class="online-service-giant-btn online-service-giant-ToTop-btn"><i
-                            class="iconfont icon-xiangshangjiantou"></i></div>
+                    <div class="online-service-giant-btn online-service-giant-ToTop-btn" style="">@svg('fas-chevron-up')</div>
                     <div class="online-service-giant">
-                        <div class="online-service-giant-hidden online-service-giant-content online-service-giant-IM">
-                            <div class="IM-title service-title">
-                                Service Center
-                            </div>
-                            <div class="IM-list">
-                            </div>
-                        </div>
                         <div
                             class="online-service-giant-hidden online-service-giant-content online-service-giant-contact">
                             <div class="contact-item">
@@ -83,7 +75,7 @@
                                     -Contact us-
                                 </div>
                                 <div class="contact-item-content">
-                                    +86-15650032530
+                                    {{ config('contact.phone') }}
                                 </div>
                             </div>
                             <div class="contact-item">
@@ -91,12 +83,9 @@
                                     E-mail
                                 </div>
                                 <div class="contact-item-content">
-                                    sales@shareuav.cn
+                                    {{ config('contact.email') }}
                                 </div>
                             </div>
-                        </div>
-                        <div
-                            class="online-service-giant-hidden online-service-giant-content online-service-giant-qrcode">
                         </div>
                     </div>
                 </div>
@@ -117,44 +106,8 @@
         </div>
 
     </div>
-    <!-- 悬停导航 -->
-    <div class="ModuleItem   " id="module_416824196">
-        <div id="module_416824196" class="MobileFloatNav">
-            <div class="FloatNavQRCode" style="z-index:5001" onclick="FloatQRShow();">
-                <div class="FloatNavMask"></div>
-                <span class="FloatNavQRCodeImg" style="display:block;"><img id="imgFloatNavQrCode"
-                        style="width: 160px; height: 160px;"
-                        _src="/index.php?c=front/Qrcode&a=getFloatNavQrCode" /></span>
-            </div>
-            <div id="MobileFloatNav" Param_Enable=0 class="ModuleMobileFloatNavGiant setletf "
-                style='bottom:100px;display:none; '>
-                <div class="FloatNavitemlist">
-
-                    <a href="tel:" class="itembtn" itemid="2">
-                        <span moren='icon-dianhua-moren' class="itemicon icon iconfont  icon-dianhua-moren "
-                            style = "">
-
-                        </span>
-                    </a>
-
-                    <a onclick="gototop()" class="itembtn" itemid="3">
-                        <span moren='icon-zhiding-moren' class="itemicon icon iconfont  icon-zhiding-moren "
-                            style = ""></span>
-                    </a>
-
-
-                </div>
-
-                <div class="defaultbtn">
-                    <span class="spotgroup icon iconfont icon-gengduotianchong"></span>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <script type="text/javascript" src="https://cdn-cloudflare.meidianbang.cn/scripts/Swiper-3.4.0/js/swiper.min.js">
-    </script>
-    <script type="text/javascript" src="https://cdn-cloudflare.meidianbang.cn/share/wow.min.js"></script>
+    <script type="text/javascript" src="{{ themeAsset('front', 'js/swiper.min.js') }}"></script>
+    <script type="text/javascript" src="{{ themeAsset('front', 'js/wow.min.js') }}"></script>
     <script>
         new WOW().init();
     </script>

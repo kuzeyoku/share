@@ -189,9 +189,7 @@
                                                 <div class="nav-lang">
                                                     <a href="https://www.shareuav.cn/" class="nav-link">
                                                         <img class="nav-img"
-                                                            src="https://cdn-cloudflare.meidianbang.cn/images/imgbg.png"
-                                                            data-src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/202202/20220209173556cba9c0.png"
-                                                            data-src="/comdata/81833/202202/20220209173556cba9c0.png"
+                                                            src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/202202/20220209173556cba9c0.png"
                                                             style="background: none; padding-left: 20px;">
                                                     </a>
                                                 </div>
@@ -199,7 +197,6 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                         <div class='clearfix visible-lg'></div>
