@@ -1,6 +1,62 @@
-/*--------------------------------------------------------------
-# Counter One
---------------------------------------------------------------*/
+.counter {
+    background-color: black;
+    padding: 100px 0 100px 0;
+}
+
+.counter-banner img {
+    width: 100%;
+    height: auto;
+}
+
+.counter h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.counter h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.counter .b_border::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: white;
+    margin-top: 10px;
+    left: 0;
+}
+
+.counter-content {
+    padding: 60px 0 60px;
+}
+
+.counter-content figure {
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    font-size: 16px;
+    line-height: 1;
+    margin-left: 8px;
+}
+
+.counter-content span {
+    color: #c00000;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.counter p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
 .counter-one {
     position: relative;
     display: block;
@@ -30,7 +86,7 @@
     left: -9px;
     top: -47px;
     width: 1px;
-    background-color: rgba(var(--erepair-white-rgb), .30);
+    background-color: rgba(var(--erepair-white-rgb), 0.3);
 }
 
 .counter-one__single-1::before {
@@ -48,7 +104,7 @@
     position: relative;
     display: inline-block;
     font-size: 110px;
-    color: rgba(var(--erepair-white-rgb), .10);
+    color: rgba(var(--erepair-white-rgb), 0.1);
 }
 
 .counter-one__count-box {
@@ -115,7 +171,7 @@
     position: relative;
     display: block;
     background-color: #232323;
-    border: 1px solid rgba(var(--erepair-white-rgb), .20);
+    border: 1px solid rgba(var(--erepair-white-rgb), 0.2);
     border-radius: 20px;
     padding: 59px 0 37px;
 }
@@ -134,7 +190,7 @@
     left: -9px;
     top: 0px;
     width: 1px;
-    background-color: #6E777D;
+    background-color: #6e777d;
 }
 
 .counter-two__single-1::before {
@@ -239,16 +295,5 @@
     line-height: 24px;
     text-transform: uppercase;
     font-family: var(--erepair-font-2);
-    color: rgba(var(--erepair-white-rgb), .80);
+    color: rgba(var(--erepair-white-rgb), 0.8);
 }
-
-
-
-
-
-
-
-
-/*--------------------------------------------------------------
-# End
---------------------------------------------------------------*/

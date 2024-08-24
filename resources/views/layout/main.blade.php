@@ -36,8 +36,9 @@
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/module-css/slider.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/module-css/footer.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/module-css/service.css') }}" />
+    <link rel="stylesheet" href="{{ themeAsset('front', 'css/module-css/product.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/module-css/about.css') }}" />
-    <link rel="stylesheet" href="{{ themeAsset('front', 'css/module-css/testimonial.css') }}" />
+    <link rel="stylesheet" href="{{ themeAsset('front', 'css/module-css/features.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/module-css/brand.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/module-css/video.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/module-css/counter.css') }}" />
@@ -55,9 +56,9 @@
 
 
 
-    <div class="preloader">
+    {{-- <div class="preloader">
         <div class="preloader__image"></div>
-    </div>
+    </div> --}}
     <!-- /.preloader -->
 
     <div class="theme-border-left"></div>

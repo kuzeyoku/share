@@ -1,29 +1,24 @@
 <footer class="site-footer">
-    <div class="site-footer__shape-1 float-bob-x">
-        <img src="assets/images/shapes/footer-shape-1.png" alt="">
-    </div>
     <div class="container">
         <div class="site-footer__top">
             <div class="row">
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
-                    <div class="footer-widget__column footer-widget__about">
-                        <div class="footer-widget__logo">
-                            <a href="index.html"><img src="assets/images/resources/footer-logo-1.png"
-                                    alt=""></a>
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                    <div class="footer-widget__column footer-widget__usefull-link">
+                        <div class="footer-widget__title-box">
+                            <h3 class="footer-widget__title">Our Company</h3>
                         </div>
-                        <p class="footer-widget__about-text">Secure other greater pleasures, or else he
-                            endures<br>
-                            pains to avoid worse pains to the selection point.<br> But in certain circumstances
-                        </p>
-                        <div class="site-footer__social">
-                            <a href="#"><i class="icon-facebook"></i></a>
-                            <a href="#"><i class="icon-xpa"></i></a>
-                            <a href="#"><i class="icon-link-in"></i></a>
-                            <a href="#"><i class="icon-instagram"></i></a>
+                        <div class="footer-widget__link-box">
+                            <ul class="footer-widget__link list-unstyled">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                     <div class="footer-widget__column footer-widget__usefull-link">
                         <div class="footer-widget__title-box">
                             <h3 class="footer-widget__title">Our Company</h3>

@@ -5,7 +5,6 @@
     position: relative;
     display: block;
     background-color: var(--erepair-black);
-    margin-top: -293px;
     overflow: hidden;
     z-index: 1;
 }
@@ -24,7 +23,7 @@
 .site-footer__top {
     position: relative;
     display: block;
-    padding: 413px 0 81px;
+    padding: 100px 0 81px;
 }
 
 .footer-widget__about {
