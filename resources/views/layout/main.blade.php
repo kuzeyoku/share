@@ -31,23 +31,15 @@
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/nice-select.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/jquery-ui.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/twentytwenty.css') }}" />
-
-
-    <link rel="stylesheet" href="{{ themeAsset('front', 'css/module-css/slider.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/module-css/footer.css') }}" />
-    <link rel="stylesheet" href="{{ themeAsset('front', 'css/module-css/service.css') }}" />
+    @stack('style')
+    <link rel="stylesheet" href="{{ themeAsset('front', 'css/module-css/slider.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/module-css/product.css') }}" />
-    <link rel="stylesheet" href="{{ themeAsset('front', 'css/module-css/about.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/module-css/features.css') }}" />
-    <link rel="stylesheet" href="{{ themeAsset('front', 'css/module-css/brand.css') }}" />
-    <link rel="stylesheet" href="{{ themeAsset('front', 'css/module-css/video.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/module-css/counter.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/module-css/project.css') }}" />
-    <link rel="stylesheet" href="{{ themeAsset('front', 'css/module-css/pricing.css') }}" />
-    <link rel="stylesheet" href="{{ themeAsset('front', 'css/module-css/blog.css') }}" />
-    <link rel="stylesheet" href="{{ themeAsset('front', 'css/module-css/cta.css') }}" />
+    <link rel="stylesheet" href="{{ themeAsset('front', 'css/module-css/contact.css') }}" />
 
-    <!-- template styles -->
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/style.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/responsive.css') }}" />
 </head>
@@ -92,31 +84,18 @@
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:needhelp@packageName__.com">needhelp@erepair.com</a>
+                    <a href="mailto:{{ config('contact.email') }}">{{ config('contact.email') }}</a>
                 </li>
                 <li>
                     <i class="fas fa-phone"></i>
-                    <a href="tel:666-888-0000">666 888 0000</a>
+                    <a href="tel:{{ config('contact.phone') }}">{{ config('contact.phone') }}</a>
                 </li>
-            </ul><!-- /.mobile-nav__contact -->
-            <div class="mobile-nav__top">
-                <div class="mobile-nav__social">
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-facebook-square"></a>
-                    <a href="#" class="fab fa-pinterest-p"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                </div><!-- /.mobile-nav__social -->
-            </div><!-- /.mobile-nav__top -->
-
-
-
+            </ul>
         </div>
-        <!-- /.mobile-nav__content -->
     </div>
-
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
         <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"></span></span>
-        <span class="scroll-to-top__text"> Go Back Top</span>
+        <span class="scroll-to-top__text"> Yukarı Git</span>
     </a>
 
     <script src="{{ themeAsset('front', 'js/jquery-3.6.0.min.js') }}"></script>
@@ -142,6 +121,7 @@
 
     <!-- template js -->
     <script src="{{ themeAsset('front', 'js/script.js') }}"></script>
+    @stack('script')
 </body>
 
 </html>

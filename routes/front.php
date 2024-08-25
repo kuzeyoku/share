@@ -22,6 +22,8 @@ Route::middleware(CountVisitors::class, Maintenance::class)->group(function () {
 
     Route::get("/page/{page}/{slug}", [App\Http\Controllers\PageController::class, "show"])->name("page.show");
 
+    Route::get("/calculator", [App\Http\Controllers\CalculatorController::class, "index"])->name("calculator.index");
+
     if (config("module.blog.status")) {
         Route::controller(App\Http\Controllers\BlogController::class)->prefix("blog")->group(function () {
             Route::get("/", "index")->name("blog.index");

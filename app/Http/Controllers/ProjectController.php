@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Enums\ModuleEnum;
-use App\Models\Category;
 use App\Models\Project;
 use App\Services\SeoService;
 
@@ -13,8 +11,7 @@ class ProjectController extends Controller
     {
         SeoService::set();
         $projects = Project::active()->order()->get();
-        $categories = Category::whereModule(ModuleEnum::Project->value)->active()->order()->get();
-        return view('project.index', compact('projects', 'categories'));
+        return view('project.index', compact('projects'));
     }
 
     public function show(Project $project)

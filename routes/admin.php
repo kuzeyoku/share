@@ -72,6 +72,7 @@ Route::prefix(config("system.admin", "admin"))->name('admin.')->group(function (
         //Project Routes
         Route::resource("project", App\Http\Controllers\Admin\ProjectController::class)->names('project');
         Route::controller(App\Http\Controllers\Admin\ProjectController::class)->prefix("project")->group(function () {
+            Route::put("/{project}/status-update", "statusUpdate")->name("project.status_update");
             Route::get("/{project}/image", "image")->name("project.image");
             Route::post("/{project}/imageStore", "imageStore")->name("project.imageStore");
             Route::delete("/{image}/imageDelete", "imageDelete")->name("project.imageDelete");

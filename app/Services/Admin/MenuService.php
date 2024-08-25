@@ -24,7 +24,7 @@ class MenuService extends BaseService
         return [
             route("home") => __("admin/general.home"),
             route(ModuleEnum::Blog->Route() . ".index") => ModuleEnum::Blog->title(),
-            route(ModuleEnum::Service->Route() . ".index") => ModuleEnum::Service->title(),
+            route(ModuleEnum::Product->Route() . ".index") => ModuleEnum::Product->title(),
             route(ModuleEnum::Project->Route() . ".index") => ModuleEnum::Project->title(),
             route("contact.index") => __("front/contact.txt1"),
             "Sayfalar" => $pages ?? [],
