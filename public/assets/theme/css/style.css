@@ -1076,16 +1076,7 @@ ul {
 }
 
 .main-menu .main-menu__list > li.dropdown > a svg {
-    position: absolute;
-    top: 52%;
-    right: 0;
-    font-size: 14px;
-    color: var(--erepair-black);
-    transform: translateY(-50%);
-    font-weight: 700;
-    -webkit-transition: all 500ms ease;
-    transition: all 500ms ease;
-    z-index: 1;
+    width: 20px;
 }
 
 .main-menu .main-menu__list > li.current > a::after,
