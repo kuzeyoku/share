@@ -1075,12 +1075,10 @@ ul {
     padding-right: 15px;
 }
 
-.main-menu .main-menu__list > li.dropdown > a:after {
+.main-menu .main-menu__list > li.dropdown > a svg {
     position: absolute;
     top: 52%;
     right: 0;
-    font-family: "Font Awesome 5 Free";
-    content: "\f107";
     font-size: 14px;
     color: var(--erepair-black);
     transform: translateY(-50%);
