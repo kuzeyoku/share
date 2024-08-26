@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Enums\StatusEnum;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 

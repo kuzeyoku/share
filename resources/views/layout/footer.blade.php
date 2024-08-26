@@ -9,9 +9,9 @@
                         </div>
                         <div class="footer-widget__link-box">
                             <ul class="footer-widget__link list-unstyled">
-                                <li><a href="index.html">SHARE 102S PRO V2</a></li>
-                                <li><a href="about.html">SHARE 202S PRO V2</a></li>
-                                <li><a href="services.html">SHARE 303S PRO V2</a></li>
+                                <li><a href="/product/10/share-102s-pro-v2">SHARE 102S PRO V2</a></li>
+                                <li><a href="/product/9/share-202s-rpo-v2">SHARE 202S PRO V2</a></li>
+                                <li><a href="/product/8/share-303s-pro-v2">SHARE 303S PRO V2</a></li>
                             </ul>
                         </div>
                     </div>
@@ -23,13 +23,13 @@
                         </div>
                         <div class="footer-widget__link-box">
                             <ul class="footer-widget__link list-unstyled">
-                                <li><a href="index.html">SHARE T2</a></li>
-                                <li><a href="about.html">PSDK 102S V3</a></li>
-                                <li><a href="services.html">SHARE 203S PRO</a></li>
-                                <li><a href="blog.html">SHARE 304S PRO</a></li>
-                                <li><a href="contact.html">SHARE 100M PRO</a></li>
-                                <li><a href="contact.html">SHARE 6100X</a></li>
-                                <li><a href="contact.html">SHARE 2600 SDK</a></li>
+                                <li><a href="/product/7/share-t2">SHARE T2</a></li>
+                                <li><a href="/product/6/psdk-102s-v3">PSDK 102S V3</a></li>
+                                <li><a href="/product/5/share-203s-pro">SHARE 203S PRO</a></li>
+                                <li><a href="/product/4/share-304s-pro">SHARE 304S PRO</a></li>
+                                <li><a href="/product/1/share-100m-pro">SHARE 100M PRO</a></li>
+                                <li><a href="/product/2/share-6100x">SHARE 6100X</a></li>
+                                <li><a href="/product/3/share-2600-sdk">SHARE 2600 SDK</a></li>
                             </ul>
                         </div>
                     </div>
