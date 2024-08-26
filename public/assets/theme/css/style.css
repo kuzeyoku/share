@@ -1081,6 +1081,10 @@ ul {
     margin-left: 5px;
 }
 
+.main-menu .main-menu__list > li.dropdown > ul > li.dropdown > a svg {
+    rotate: 90deg;
+}
+
 
 
 .main-menu .main-menu__list > li.current > a::after,
