@@ -40,7 +40,7 @@ class Product extends Model implements HasMedia
 
     public function scopeOrder()
     {
-        return $this->orderBy("order asc", "id desc");
+        return $this->orderBy(["order asc", "id desc"]);
     }
 
     public function translate()
