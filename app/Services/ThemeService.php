@@ -48,9 +48,6 @@ class ThemeService
         $footer["quickLinks"] = Cache::rememberForever("footer_quick_links_" . app()->getLocale(), function () {
             return \App\Models\Page::active()->where("quick_link", \App\Enums\StatusEnum::Yes->value)->get();
         });
-        $footer["services"] = Cache::rememberForever("footer_services_" . app()->getLocale(), function () {
-            return \App\Models\Service::whereStatus(\App\Enums\StatusEnum::Active->value)->limit(5)->get();
-        });
         return $footer;
     }
 }
