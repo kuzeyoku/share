@@ -63,7 +63,7 @@
     <div class="site-footer__bottom">
         <div class="container">
             <div class="site-footer__bottom-inner">
-                <p class="site-footer__bottom-text">@lang('front/footer.copyrigh')</p>
+                <p class="site-footer__bottom-text">@lang('front/footer.copyright')</p>
                 <ul class="list-unstyled site-footer__bottom-menu">
                     <li><a href="{{ route('contact.index') }}">@lang('front/footer.contact')</a></li>
                     <li><a href="about.html">@lang('front/footer.terms')</a></li>
