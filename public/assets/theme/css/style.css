@@ -1075,10 +1075,13 @@ ul {
     padding-right: 15px;
 }
 
-.main-menu .main-menu__list > li.dropdown > a svg {
+.main-menu .main-menu__list > li.dropdown > a svg,
+.mian-menu .main-menu__list > li.dropdown > ul > li.dropdown > a svg {
     width: 12px;
     margin-left: 5px;
 }
+
+
 
 .main-menu .main-menu__list > li.current > a::after,
 .main-menu .main-menu__list > li:hover > a::after,
