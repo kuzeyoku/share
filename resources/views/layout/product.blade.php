@@ -2,7 +2,18 @@
     <div class="container-fluid">
         <div clasws="services-one__inner">
             <div class="row">
-                <div class="col-lg custom-col">
+                @foreach ($product as $product)
+                    <div class="col-lg custom-col">
+                        <div class="product-container">
+                            <a href="{{ $product->url }}">
+                                <img width="300" height="300" class="product-image"
+                                    src="{{ $product->getFirstMediaUrl('cover') }}" alt="">
+                            </a>
+                            <p class="product-title">{{ $product->title }}</p>
+                        </div>
+                    </div>
+                @endforeach
+                {{-- <div class="col-lg custom-col">
                     <div class="product-container">
                         <a href="#">
                             <img width="300" height="300" class="product-image"
@@ -101,7 +112,7 @@
                         </a>
                         <p class="product-title">SHARE 100M PRO</p>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
