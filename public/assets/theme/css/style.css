@@ -1076,7 +1076,8 @@ ul {
 }
 
 .main-menu .main-menu__list > li.dropdown > a svg {
-    width: 20px;
+    width: 15px;
+    margin-left: 5px;
 }
 
 .main-menu .main-menu__list > li.current > a::after,
