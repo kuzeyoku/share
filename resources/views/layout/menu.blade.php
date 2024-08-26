@@ -1,5 +1,5 @@
 <li class="{{ $menu->subMenu->isNotEmpty() ? 'dropdown' : '' }}">
-    <a href="{{ $menu->url ?? '#' }}">{{ $menu->title }}@svg('fas-chevron-down')</a>
+    <a href="{{ $menu->url ?? '#' }}">{{ $menu->title }}</a>
     <ul>
         @foreach ($menu->subMenu as $subMenu)
             @if ($subMenu->subMenu->isNotEmpty())
