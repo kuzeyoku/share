@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/animate.min.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/custom-animate.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/swiper.min.css') }}" />
-    <link rel="stylesheet" href="{{ themeAsset('front', 'css/fontawesome.min.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/jarallax.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/jquery.magnific-popup.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/odometer.min.css') }}" />
