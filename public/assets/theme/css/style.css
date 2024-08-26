@@ -1082,7 +1082,7 @@ ul {
 }
 
 .main-menu .main-menu__list > li.dropdown > ul > li.dropdown > a svg {
-    rotate: 90deg;
+    rotate: 270deg;
 }
 
 
