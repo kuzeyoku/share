@@ -22,7 +22,7 @@ class HomeController extends Controller
         });
 
         $data["product"] = Cache::remember("product_home_" . app()->getLocale(), config("cache.time"), function () {
-            return Product::active()->order()->limit(10)->get();
+            return Product::active()->limit(10)->get();
         });
 
         $data["project"] = Cache::remember("project_home_" . app()->getLocale(), config("cache.time"), function () {
