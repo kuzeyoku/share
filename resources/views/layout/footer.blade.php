@@ -63,11 +63,11 @@
     <div class="site-footer__bottom">
         <div class="container">
             <div class="site-footer__bottom-inner">
-                <p class="site-footer__bottom-text">Copyright 2024. All rights reserved</p>
+                <p class="site-footer__bottom-text">@lang('front/footer.copyrigh')</p>
                 <ul class="list-unstyled site-footer__bottom-menu">
-                    <li><a href="contact.html">Support</a></li>
-                    <li><a href="about.html">Terms and Condition</a></li>
-                    <li><a href="about.html">Privacy and Policy</a></li>
+                    <li><a href="{{ route('contact.index') }}">@lang('front/footer.contact')</a></li>
+                    <li><a href="about.html">@lang('front/footer.terms')</a></li>
+                    <li><a href="about.html">@lang('front/footer.privacy')</a></li>
                 </ul>
             </div>
         </div>
