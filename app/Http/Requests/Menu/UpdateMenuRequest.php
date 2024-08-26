@@ -25,7 +25,7 @@ class UpdateMenuRequest extends FormRequest
             "title." . app()->getFallbackLocale() => "required",
             "title.*" => "",
             "url" => "nullable",
-            "parent_id" => "numeric|min:0|nullable",
+            "parent_id" => "numeric|min:0",
             "order" => "required|numeric|min:0",
             "blank" => "nullable|boolean",
         ];
@@ -41,5 +41,13 @@ class UpdateMenuRequest extends FormRequest
             "order" => __("admin/general.order"),
             "blank" => __("admin/{$this->folder}.form_blank"),
         ];
+    }
+
+    protected function prepareForValidation()
+    {
+        $this->merge([
+            "parent_id" => $this->parent_id ?: 0,
+            "order" => $this->order ?: 0,
+        ]);
     }
 }

@@ -48,6 +48,7 @@ class StoreMenuRequest extends FormRequest
         $this->merge([
             "url" => $this->urlSelect ?: $this->url,
             "parent_id" => $this->parent_id ?: 0,
+            "order" => $this->order ?: 0,
         ]);
     }
 }
