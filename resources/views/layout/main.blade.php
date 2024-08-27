@@ -46,13 +46,6 @@
 
 <body>
 
-
-
-    {{-- <div class="preloader">
-        <div class="preloader__image"></div>
-    </div> --}}
-    <!-- /.preloader -->
-
     <div class="theme-border-left"></div>
     <div class="theme-border-right"></div>
 
