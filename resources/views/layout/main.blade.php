@@ -59,13 +59,13 @@
 
     <div class="mobile-nav__wrapper">
         <div class="mobile-nav__overlay mobile-nav__toggler"></div>
-        <!-- /.mobile-nav__overlay -->
         <div class="mobile-nav__content">
-            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+            <span class="mobile-nav__close mobile-nav__toggler">@svg('fas-times')</span>
 
             <div class="logo-box">
                 <a href="{{ route('home') }}" aria-label="logo image">
-                    <img src="assets/images/resources/logo-2.png" width="140" alt="" />
+                    <img src="{{ themeAsset('front', 'images/resources/logo-2.png') }}" width="140"
+                        alt="" />
                 </a>
             </div>
             <!-- /.logo-box -->
@@ -74,11 +74,11 @@
 
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
-                    <i class="fa fa-envelope"></i>
+                    @svg('fas-envelope')
                     <a href="mailto:{{ config('contact.email') }}">{{ config('contact.email') }}</a>
                 </li>
                 <li>
-                    <i class="fas fa-phone"></i>
+                    @svg('fas-phone')
                     <a href="tel:{{ config('contact.phone') }}">{{ config('contact.phone') }}</a>
                 </li>
             </ul>

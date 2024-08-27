@@ -1085,8 +1085,6 @@ ul {
     rotate: 270deg;
 }
 
-
-
 .main-menu .main-menu__list > li.current > a::after,
 .main-menu .main-menu__list > li:hover > a::after,
 .stricky-header .main-menu__list > li.current > a::after,
@@ -1281,6 +1279,10 @@ ul {
 
 .main-menu .mobile-nav__toggler:hover {
     color: var(--erepair-black);
+}
+
+.main-menu .mobile-nav__toggler svg {
+    width: 20px;
 }
 
 @media (min-width: 1200px) {

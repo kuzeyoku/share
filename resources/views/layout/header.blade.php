@@ -4,11 +4,11 @@
             <div class="main-menu__wrapper-inner">
                 <div class="main-menu__left">
                     <div class="main-menu__logo">
-                        <a href="{{ route('home') }}"><img width="150"
-                                src="{{ themeAsset('front', 'images/resources/logo-1.png') }}" alt=""></a>
+                        <a href="{{ route('home') }}"><img width="150" src="{{ $themeAsset->logo_dark }}"
+                                alt="{{ config('general.title') }}"></a>
                     </div>
                     <div class="main-menu__main-menu-box">
-                        <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+                        <a href="javascript:void();" class="mobile-nav__toggler">{{ svg('fas-bars') }}</a>
                         <ul class="main-menu__list">
                             @foreach ($menu as $menu)
                                 @if ($menu->parent_id === 0)
@@ -30,5 +30,5 @@
 </header>
 
 <div class="stricky-header stricked-menu main-menu">
-    <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
-</div><!-- /.stricky-header -->
+    <div class="sticky-header__content"></div>
+</div>
