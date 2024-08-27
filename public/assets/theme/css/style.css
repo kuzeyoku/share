@@ -1075,20 +1075,17 @@ ul {
     padding-right: 15px;
 }
 
-.main-menu .main-menu__list > li.dropdown > a:after {
-    position: absolute;
-    top: 52%;
-    right: 0;
-    font-family: "Font Awesome 5 Pro";
-    content: "\f107";
-    font-size: 14px;
-    color: var(--erepair-black);
-    transform: translateY(-50%);
-    font-weight: 700;
-    -webkit-transition: all 500ms ease;
-    transition: all 500ms ease;
-    z-index: 1;
+.main-menu .main-menu__list > li.dropdown > a svg,
+.main-menu .main-menu__list > li.dropdown > ul > li.dropdown > a svg {
+    width: 12px;
+    margin-left: 5px;
 }
+
+.main-menu .main-menu__list > li.dropdown > ul > li.dropdown > a svg {
+    rotate: 270deg;
+}
+
+
 
 .main-menu .main-menu__list > li.current > a::after,
 .main-menu .main-menu__list > li:hover > a::after,

@@ -21,11 +21,9 @@
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/animate.min.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/custom-animate.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/swiper.min.css') }}" />
-    <link rel="stylesheet" href="{{ themeAsset('front', 'css/font-awesome-all.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/jarallax.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/jquery.magnific-popup.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/odometer.min.css') }}" />
-    <link rel="stylesheet" href="{{ themeAsset('front', 'css/flaticon.css') }}">
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/owl.carousel.min.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/owl.theme.default.min.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/nice-select.css') }}" />
@@ -66,7 +64,7 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index.html" aria-label="logo image">
+                <a href="{{ route('home') }}" aria-label="logo image">
                     <img src="assets/images/resources/logo-2.png" width="140" alt="" />
                 </a>
             </div>
