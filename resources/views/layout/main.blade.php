@@ -64,8 +64,7 @@
 
             <div class="logo-box">
                 <a href="{{ route('home') }}" aria-label="logo image">
-                    <img src="{{ themeAsset('front', 'images/resources/logo-2.png') }}" width="140"
-                        alt="" />
+                    <img src="{{ $themeAsset->logo_light }}" width="140" alt="" />
                 </a>
             </div>
             <!-- /.logo-box -->

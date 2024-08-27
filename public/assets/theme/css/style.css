@@ -1430,6 +1430,15 @@ ul {
     display: none !important;
 }
 
+.mobile-nav__content .main-menu__list li.dropdown a svg {
+    display: none;
+}
+
+.mobile-nav__content .main-menu__list li.dropdown a button svg {
+    display: block;
+    width: 15px;
+}
+
 .mobile-nav__content .main-menu__list > li > a,
 .mobile-nav__content .main-menu__list > li > ul > li > a,
 .mobile-nav__content .main-menu__list > li > ul > li > ul > li > a {
@@ -1607,6 +1616,12 @@ ul {
 
 .mobile-nav__contact li + li {
     margin-top: 15px;
+}
+
+.mobile-nav__contact li svg {
+    width: 15px;
+    fill: #dddddd;
+    margin-right: 15px;
 }
 
 .mobile-nav__contact li a {
