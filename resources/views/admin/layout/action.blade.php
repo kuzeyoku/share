@@ -1,5 +1,10 @@
 <td class="table-action">
     <div class="data-action-button">
+        @isset($block)
+            <a class="me-2 p-2" href="{{ $block }}">
+                <i data-feather="slash" class="feather-icon text-danger"></i>
+            </a>
+        @endisset
         @isset($show)
             <a class="me-2 p-2" onclick="return!window.open(this.href);" href="{{ $show ?: $item->url }}">
                 <i data-feather="eye" class="feather-icon"></i>

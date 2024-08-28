@@ -62,10 +62,10 @@ class MessageController extends Controller
         }
     }
 
-    public function blockUser(Message $message)
+    public function block(Message $message)
     {
         try {
-            $this->service->blockUser($message);
+            $this->service->block($message);
             return redirect()
                 ->route("admin.{$this->service->route()}.index")
                 ->withSuccess(__("admin/alert.default_success"));

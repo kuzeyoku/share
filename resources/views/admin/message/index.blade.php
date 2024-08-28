@@ -24,6 +24,7 @@
                     @include(themeView('admin', 'layout.action'), [
                         'show' => route("admin.$route.show", $item),
                         'delete' => '',
+                        'block' => route("admin.$route.block", $item),
                     ])
                 </tr>
             @empty

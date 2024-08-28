@@ -34,10 +34,12 @@ Route::prefix(config("system.admin", "admin"))->name('admin.')->group(function (
         //Message Routes
         Route::controller(App\Http\Controllers\Admin\MessageController::class)->prefix("message")->group(function () {
             Route::get("/", "index")->name("message.index");
+            Route::get("/create", "create")->name("message.create");
             Route::get("/{message}/show", "show")->name("message.show");
             Route::get("/{message}/reply", "reply")->name("message.reply");
             Route::post("/{message}/sendReply", "sendReply")->name("message.sendReply");
             Route::delete("/{message}/destroy", "destroy")->name("message.destroy");
+            Route::post("/{message}/block", "block")->name("message.block");
         });
         //Menu Routes
         Route::resource("menu", App\Http\Controllers\Admin\MenuController::class)->names('menu');
