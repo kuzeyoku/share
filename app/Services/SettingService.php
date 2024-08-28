@@ -21,8 +21,8 @@ class SettingService
     {
         $settings = self::getAll();
         $config = [];
-        $settings->each(function ($item) use (&$config) {
-            $config[$item->category][$item->key] = $item->value;
+        $settings->each(function ($setting) use (&$config) {
+            $config[$setting->category][$setting->key] = $setting->value;
         });
         return $config;
     }

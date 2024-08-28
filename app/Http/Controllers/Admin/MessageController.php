@@ -6,7 +6,6 @@ use Throwable;
 use App\Models\Message;
 use Illuminate\Support\Facades\View;
 use App\Services\Admin\MessageService;
-use App\Services\Admin\NotificationService;
 use App\Http\Requests\Message\ReplyMessageRequest;
 
 class MessageController extends Controller
@@ -54,6 +53,19 @@ class MessageController extends Controller
     {
         try {
             $this->service->delete($message);
+            return redirect()
+                ->route("admin.{$this->service->route()}.index")
+                ->withSuccess(__("admin/alert.default_success"));
+        } catch (Throwable $e) {
+            return back()
+                ->withError(__("admin/alert.default_error"));
+        }
+    }
+
+    public function blockUser(Message $message)
+    {
+        try {
+            $this->service->blockUser($message);
             return redirect()
                 ->route("admin.{$this->service->route()}.index")
                 ->withSuccess(__("admin/alert.default_success"));
