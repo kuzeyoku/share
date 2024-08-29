@@ -24,7 +24,7 @@ class Contact extends Mailable
     public function envelope(): Envelope
     {
         $replyTo = [new Address($this->request->email)];
-        $subject = settings("general.title", env("APP_NAME")) . " İletişim";
+        $subject = config("general.title") . " İletişim";
 
         return new Envelope(replyTo: $replyTo, subject: $subject);
     }

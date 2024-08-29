@@ -49,13 +49,13 @@
     @endif
 @endif
 <script>
-    $('.destroy-btn').on('click', function() {
+    $('.confirm-btn').on('click', function() {
         Swal.fire({
             title: "{{ __('admin/general.are_you_sure') }}",
             text: "{{ __('admin/general.this_action_cannot_be_undone') }}",
             icon: 'warning',
             showCancelButton: true,
-            confirmButtonText: "{{ __('admin/general.yes_delete_it') }}",
+            confirmButtonText: "{{ __('admin/general.yes_confirm') }}",
             cancelButtonText: "{{ __('admin/general.cancel') }}",
             confirmButtonColor: '#d33',
             cancelButtonColor: '#3085d6',

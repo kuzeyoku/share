@@ -1,6 +1,9 @@
 <?php
 
 return [
+    "message" => [
+        "status" => true,
+    ],
     "media" => [
         "status" => true,
     ],

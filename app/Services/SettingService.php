@@ -27,10 +27,10 @@ class SettingService
         return $config;
     }
 
-    public static function get($key)
+    public static function get($category, $key)
     {
-        return Cache::remember("setting.{$key}", config("cache.time"), function () use ($key) {
-            return self::getAll()->where("key", $key)->first()?->value;
+        return Cache::remember("setting.{$key}", config("cache.time"), function () use ($key, $category) {
+            return self::getAll()->where(["category" => $category, "key" => $key])->first()?->value;
         });
     }
 

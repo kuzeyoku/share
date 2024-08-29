@@ -2,8 +2,6 @@ $(document).ready(function () {
     // Variables declarations
     var $wrapper = $(".main-wrapper");
     var $slimScrolls = $(".slimscroll");
-    var $pageWrapper = $(".page-wrapper");
-    // Replace feather icons
     if ($("[data-feather]").length > 0) {
         feather.replace();
     }

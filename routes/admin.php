@@ -40,6 +40,7 @@ Route::prefix(config("system.admin", "admin"))->name('admin.')->group(function (
             Route::post("/{message}/sendReply", "sendReply")->name("message.sendReply");
             Route::delete("/{message}/destroy", "destroy")->name("message.destroy");
             Route::post("/{message}/block", "block")->name("message.block");
+            Route::get("/blocked", "blocked")->name("message.blocked");
         });
         //Menu Routes
         Route::resource("menu", App\Http\Controllers\Admin\MenuController::class)->names('menu');

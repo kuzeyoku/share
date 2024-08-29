@@ -38,4 +38,9 @@ class MessageService extends BaseService
         ]);
         $message->delete();
     }
+
+    public function getBlocked()
+    {
+        return BlockedUser::paginate(config("pagination.admin", 15));
+    }
 }

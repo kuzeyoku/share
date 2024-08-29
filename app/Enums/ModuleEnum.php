@@ -97,74 +97,7 @@ enum ModuleEnum: string
         };
     }
 
-    public function menu(): array
-    {
-        return match ($this) {
-
-            self::Message => [
-                "index" => __("admin/$this->value.index"),
-            ],
-            self::Media => [
-                "index" => __("admin/$this->value.index"),
-            ],
-            self::User => [
-                "create" => __("admin/$this->value.create"),
-                "index" => __("admin/$this->value.list"),
-            ],
-            self::Menu => [
-                "index" => __("admin/$this->value.index"),
-            ],
-            self::Page => [
-                "create" => __("admin/$this->value.create"),
-                "index" => __("admin/$this->value.list"),
-            ],
-            self::Language => [
-                "create" => __("admin/$this->value.create"),
-                "index" => __("admin/$this->value.list"),
-            ],
-            self::Blog => [
-                "create" => __("admin/$this->value.create"),
-                "index" => __("admin/$this->value.list"),
-            ],
-            self::Category => [
-                "create" => __("admin/$this->value.create"),
-                "index" => __("admin/$this->value.list"),
-            ],
-            self::Service => [
-                "create" => __("admin/$this->value.create"),
-                "index" => __("admin/$this->value.list"),
-            ],
-            self::Brand => [
-                "create" => __("admin/$this->value.create"),
-                "index" => __("admin/$this->value.list"),
-            ],
-            self::Reference => [
-                "create" => __("admin/$this->value.create"),
-                "index" => __("admin/$this->value.list"),
-            ],
-            self::Product => [
-                "create" => __("admin/$this->value.create"),
-                "index" => __("admin/$this->value.list"),
-            ],
-            self::Project => [
-                "create" => __("admin/$this->value.create"),
-                "index" => __("admin/$this->value.list"),
-            ],
-            self::Slider => [
-                "create" => __("admin/$this->value.create"),
-                "index" => __("admin/$this->value.list"),
-            ],
-            self::Testimonial => [
-                "create" => __("admin/$this->value.create"),
-                "index" => __("admin/$this->value.list"),
-            ],
-            self::Popup => [
-                "create" => __("admin/$this->value.create"),
-                "index" => __("admin/$this->value.list"),
-            ],
-        };
-    }
-
+    
     public static function toSelectArray(): array
     {
         return [

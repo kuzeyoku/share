@@ -1,9 +1,11 @@
 <td class="table-action">
     <div class="data-action-button">
         @isset($block)
-            <a class="me-2 p-2" href="{{ $block }}">
+            {{ html()->form()->route("admin.{$route}.block", $item)->open() }}
+            <a class="confirm-btn me-2 p-2">
                 <i data-feather="slash" class="feather-icon text-danger"></i>
             </a>
+            {{ html()->form()->close() }}
         @endisset
         @isset($show)
             <a class="me-2 p-2" onclick="return!window.open(this.href);" href="{{ $show ?: $item->url }}">
@@ -32,7 +34,7 @@
         @endisset
         @isset($delete)
             {{ html()->form('DELETE')->route("admin.{$route}.destroy", $item)->open() }}
-            <a class="destroy-btn p-2" href="javascript:void(0);">
+            <a class="confirm-btn p-2">
                 <i data-feather="trash-2" class="feather-icon text-danger"></i>
             </a>
             {{ html()->form()->close() }}
