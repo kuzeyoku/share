@@ -32,11 +32,20 @@ class MessageService extends BaseService
 
     public function block(Model $message)
     {
+        if (BlockedUser::where('email', $message->email)->whereOr("ip", $message->ip)->exists()) {
+            throw new \Exception(__("admin/" . parent::folder() . ".already_blocked"));
+        }
         BlockedUser::create([
             'email' => $message->email,
             'ip' => $message->ip
         ]);
         $message->delete();
+        Message::where('email', $message->email)->orWhere('ip', $message->ip)->delete();
+    }
+
+    public function unblock(int $user_id)
+    {
+        BlockedUser::findOrFail($user_id)->delete();
     }
 
     public function getBlocked()

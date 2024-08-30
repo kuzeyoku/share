@@ -32,7 +32,7 @@ class PopupService extends BaseService
                 "color" => $request->color ?? "#88A0B9",
             ])
         ];
-        return parent::create($request);
+        parent::create($request);
     }
 
     public function update($request, Model $popup)
@@ -53,6 +53,6 @@ class PopupService extends BaseService
                 "color" => $request->color ?? "#88A0B9",
             ])
         ];
-        return parent::update($request, $popup);
+        parent::update($request, $popup);
     }
 }

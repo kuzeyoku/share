@@ -22,4 +22,5 @@ return [
     "table_subject" => "Konu",
     "table_email" => "E-Mail",
     "table_ip" => "İp Adresi",
+    "already_blocked" => "Bu kullanıcı zaten engellenmiş.",
 ];

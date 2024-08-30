@@ -26,7 +26,7 @@ class LanguageService extends BaseService
             File::copyDirectory($default, $new);
         else
             throw new Exception(__("admin/language.code_exists"));
-        return parent::create($request);
+        parent::create($request);
     }
 
     public function delete(Model $language)
@@ -36,7 +36,7 @@ class LanguageService extends BaseService
         $from = resource_path("lang/{$language->code}");
         if (File::exists($from))
             File::deleteDirectory($from);
-        return parent::delete($language);
+        parent::delete($language);
     }
 
     static function toArray()

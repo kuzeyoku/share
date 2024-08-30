@@ -17,9 +17,15 @@
                     <td>{{ $item->email }}</td>
                     <td>{{ $item->ip }}</td>
                     <td>{{ $item->created_at->diffForHumans() }}</td>
-                    @include(themeView('admin', 'layout.action'), [
-                        'delete' => '',
-                    ])
+                    <td class="table-action">
+                        <div class="data-action-button">
+                            {{ html()->form('DELETE')->route("admin.{$route}.unblock", $item->id)->open() }}
+                            <a href="javascript:void(0);" class="confirm-btn me-2 p-2">
+                                <i data-feather="slash" class="feather-icon text-danger"></i>
+                            </a>
+                            {{ html()->form()->close() }}
+                        </div>
+                    </td>
                 </tr>
             @empty
                 <tr>

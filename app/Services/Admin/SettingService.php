@@ -92,17 +92,4 @@ class SettingService
         $asset->why_us2 = null;
         return $asset;
     }
-
-    public static function setEmailSettings()
-    {
-        config([
-            'mail.mailers.smtp.host' => config("smtp.host"),
-            'mail.mailers.smtp.port' => config("smtp.port"),
-            'mail.mailers.smtp.encryption' => config("smtp.encryption"),
-            'mail.mailers.smtp.username' => config("smtp.username"),
-            'mail.mailers.smtp.password' => config("smtp.password"),
-            "mail.from.address" => config("smtp.from_address"),
-            "mail.from.name" => config("smtp.from_name"),
-        ]);
-    }
 }

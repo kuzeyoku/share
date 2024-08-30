@@ -23,9 +23,4 @@ class BlockedUser extends Model
     {
         return $query->where('ip', $ip);
     }
-
-    public function scopeCheck($query, $email, $ip)
-    {
-        return $query->where('email', $email)->orWhere('ip', $ip);
-    }
 }

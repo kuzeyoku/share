@@ -70,9 +70,8 @@ class MessageController extends Controller
                 ->route("admin.{$this->service->route()}.index")
                 ->withSuccess(__("admin/alert.default_success"));
         } catch (Throwable $e) {
-            dd($e->getMessage());
             return back()
-                ->withError(__("admin/alert.default_error"));
+                ->withError($e->getMessage());
         }
     }
 
@@ -80,5 +79,18 @@ class MessageController extends Controller
     {
         $items = $this->service->getBlocked();
         return view(themeView("admin", "{$this->service->folder()}.blocked"), compact("items"));
+    }
+
+    public function unblock(int $user_id)
+    {
+        try {
+            $this->service->unblock($user_id);
+            return redirect()
+                ->route("admin.{$this->service->route()}.blocked")
+                ->withSuccess(__("admin/alert.default_success"));
+        } catch (Throwable $e) {
+            return back()
+                ->withError(__("admin/alert.default_error"));
+        }
     }
 }
