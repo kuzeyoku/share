@@ -18,7 +18,8 @@ class HomeController extends Controller
         });
 
         $data["product"] = Cache::remember("product_home_" . app()->getLocale(), config("cache.time"), function () {
-            return Product::active()->whereIn("category_id", [2, 3])->order()->limit(10)->get();
+            $product = Product::active()->order()->limit(10)->get();
+            return $product->whereIn("category_id", [2, 3]);
         });
 
         $data["blog"] = Cache::remember("blog_home_" . app()->getLocale(), config("cache.time"), function () {
