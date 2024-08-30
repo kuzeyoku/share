@@ -23,7 +23,7 @@
                                 <div class="card-footer d-flex justify-content-between">
                                     {{ $item->file_name }}
                                     {{ html()->form('DELETE')->route("admin.{$route}.destroy", $item)->open() }}
-                                    <a href="javascript:void(0);" class="btn btn-sm btn-danger destroy-btn">
+                                    <a href="javascript:void(0);" class="btn btn-sm btn-danger confirm-btn">
                                         @lang('admin/general.delete')</a>
                                     {{ html()->form()->close() }}
                                 </div>
