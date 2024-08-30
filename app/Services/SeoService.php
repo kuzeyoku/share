@@ -16,8 +16,10 @@ class SeoService
             SEOTools::opengraph()->addImage($themeAsset->cover);
             SEOTools::twitter()->setImage($themeAsset->cover);
         } elseif (is_array($item)) {
-            SEOTools::setTitle($item["title"]);
-            SEOTools::setDescription($item["description"]);
+            if (array_key_exists("title", $item))
+                SEOTools::setTitle($item["title"]);
+            if (array_key_exists("description", $item))
+                SEOTools::setDescription($item["description"]);
             SEOTools::opengraph()->addImage($themeAsset->cover);
             SEOTools::twitter()->setImage($themeAsset->cover);
         } else {
