@@ -103,7 +103,7 @@ class Product extends Model implements HasMedia
     public function getMetaDescriptionAttribute()
     {
         $description = $this->translate->where("lang", app()->getFallbackLocale())->pluck('description')->first();
-        return Str::limit(strip_tags($description), 160);
+        return Str::limit(trim(strip_tags($description)), 160);
     }
 
     public function getUrlAttribute()
@@ -114,11 +114,6 @@ class Product extends Model implements HasMedia
     public function getStatusViewAttribute()
     {
         return StatusEnum::fromValue($this->status)->badge();
-    }
-
-    public function getModuleAttribute()
-    {
-        return ModuleEnum::Product->singleTitle();
     }
 
     protected static function boot()
