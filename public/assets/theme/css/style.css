@@ -1034,7 +1034,6 @@ ul {
     font-size: 16px;
     color: var(--erepair-black);
     font-weight: 700;
-    text-transform: uppercase;
     font-family: var(--erepair-font-2);
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
