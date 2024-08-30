@@ -3,16 +3,16 @@
         <div class="row">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="200ms">
                 <h2>
-                    Technology Powering Your Work
+                    @lang("front/feature.txt1")
                 </h2>
                 <p>
-                    Microsecond-Level TimeSync 2.0 Synchronization
+                    @lang("front/feature.txt2")
                 </p>
                 <p>
-                    IMU Navigation Technique
+                    @lang("front/feature.txt3")
                 </p>
                 <p>
-                    RTK Real-time Differential Data Algorithm
+                    @lang("front/feature.txt4")
                 </p>
                 <img class="features-image"
                     src="https://cdn-cloudflare.meidianbang.cn/comdata/81833/202308/20230803101540f56197.png"
@@ -26,10 +26,10 @@
                     </div>
                     <div class="col-lg-9">
                         <h3 class="feature-title">
-                            Cost Saving with Multiple Functions
+                            @lang("front/feature.txt5")
                         </h3>
                         <span class="feature-text">
-                            Combines integrated oblique photography and orthophotos in one solution.
+                            @lang("front/feature.txt6")
                         </span>
                     </div>
                 </div>
@@ -40,11 +40,10 @@
                     </div>
                     <div class="col-lg-9">
                         <h3 class="feature-title">
-                            Manpower Saving With GCP-Free Operation
+                            @lang("front/feature.txt7")
                         </h3>
                         <span class="feature-text">
-                            Independent POS enables a single operator to complete the entire field data acquisition and
-                            processing workflow.
+                            @lang("front/feature.txt8")
                         </span>
                     </div>
                 </div>
@@ -55,10 +54,10 @@
                     </div>
                     <div class="col-lg-9">
                         <h3 class="feature-title">
-                            Time-Saving With Simple Operation
+                            @lang("front/feature.txt9")
                         </h3>
                         <span class="feature-text">
-                            Easy installation and efficient operation, deeply integrated with DJI industry applications.
+                            @lang("front/feature.txt10")
                         </span>
                     </div>
                 </div>
@@ -69,11 +68,10 @@
                     </div>
                     <div class="col-lg-9">
                         <h3 class="feature-title">
-                            Master of Mapping Lenses
+                            @lang("front/feature.txt11")
                         </h3>
                         <span class="feature-text">
-                            Mapping-specific lenses ensure transparent imaging, clear reduction, and a wide-angle view
-                            for full coverage with a high overlap rate thoroughness.
+                            @lang("front/feature.txt12")
                         </span>
                     </div>
                 </div>
@@ -84,10 +82,10 @@
                     </div>
                     <div class="col-lg-9">
                         <h3 class="feature-title">
-                            Energy-Saving Payload
+                            @lang("front/feature.txt13")
                         </h3>
                         <span class="feature-text">
-                            CNC aircraft aluminum alloy body support: lightweight, energy-saving, and flight-extending.
+                            @lang("front/feature.txt14")
                         </span>
                     </div>
                 </div>
