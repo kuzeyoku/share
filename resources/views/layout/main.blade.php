@@ -1,22 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     {!! SEO::generate() !!}
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
-    <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
-
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
-        rel="stylesheet">
-
-
+    <link rel="icon" type="image/png" href="{{ $themeAsset->favicon }}" />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/bootstrap.min.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/animate.min.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/custom-animate.css') }}" />
@@ -37,40 +27,28 @@
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/module-css/counter.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/module-css/project.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/module-css/contact.css') }}" />
-
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/style.css') }}" />
     <link rel="stylesheet" href="{{ themeAsset('front', 'css/responsive.css') }}" />
 </head>
 
 <body>
-
     <div class="theme-border-left"></div>
     <div class="theme-border-right"></div>
-
-
     <div class="page-wrapper">
-
         @include('layout.header')
         @yield('content')
         @include('layout.footer')
-
     </div>
-
-
     <div class="mobile-nav__wrapper">
         <div class="mobile-nav__overlay mobile-nav__toggler"></div>
         <div class="mobile-nav__content">
             <span class="mobile-nav__close mobile-nav__toggler">@svg('fas-times')</span>
-
             <div class="logo-box">
                 <a href="{{ route('home') }}" aria-label="logo image">
                     <img src="{{ $themeAsset->logo_light }}" width="140" alt="" />
                 </a>
             </div>
-            <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
-            <!-- /.mobile-nav__container -->
-
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     @svg('fas-envelope')
@@ -87,7 +65,6 @@
         <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"></span></span>
         <span class="scroll-to-top__text"> Yukarı Git</span>
     </a>
-
     <script src="{{ themeAsset('front', 'js/jquery-3.6.0.min.js') }}"></script>
     <script src="{{ themeAsset('front', 'js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ themeAsset('front', 'js/jarallax.min.js') }}"></script>
@@ -108,8 +85,6 @@
     <script src="{{ themeAsset('front', 'js/gsap/gsap.js') }}"></script>
     <script src="{{ themeAsset('front', 'js/gsap/ScrollTrigger.js') }}"></script>
     <script src="{{ themeAsset('front', 'js/gsap/SplitText.js') }}"></script>
-
-    <!-- template js -->
     <script src="{{ themeAsset('front', 'js/script.js') }}"></script>
     @stack('script')
 </body>
