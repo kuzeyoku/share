@@ -189,7 +189,7 @@
                             <li class="submenu">
                                 <a href="javascript:void(0);"
                                     class="@if (request()->segment(2) == App\Enums\ModuleEnum::Product->value) subdrop active @endif">
-                                    <i data-feather="{{ App\Enums\ModuleEnum::Product->icon() }}"></i>,
+                                    <i data-feather="{{ App\Enums\ModuleEnum::Product->icon() }}"></i>
                                     <span>{{ App\Enums\ModuleEnum::Product->menuTitle() }}</span>
                                     <span class="menu-arrow"></span>
                                 </a>
