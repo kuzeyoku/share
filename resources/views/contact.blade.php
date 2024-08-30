@@ -9,7 +9,7 @@
                         <div class="contact-two__icon">
                             @svg("fas-phone-alt")
                         </div>
-                        <p>@lang("front/contact.txt.8")</p>
+                        <p>@lang("front/contact.txt8")</p>
                         <h3><a href="tel:{{ config("contact.phone") }}">{{ config("contact.phone") }}</a></h3>
                         <p></p>
                     </div>
@@ -19,7 +19,7 @@
                         <div class="contact-two__icon">
                             @svg("fas-envelope")
                         </div>
-                        <p>@lang("front/contact.txt.9")</p>
+                        <p>@lang("front/contact.txt9")</p>
                         <h3><a href="mailto:{{ config("contact.email") }}">{{ config("contact.email") }}</a></h3>
                         <p></p>
                     </div>
@@ -29,7 +29,7 @@
                         <div class="contact-two__icon">
                             @svg("fas-map-marker-alt")
                         </div>
-                        <p>@lang("front/contact.txt.10")</p>
+                        <p>@lang("front/contact.txt10")</p>
                         <h3>{{ config("contact.address") }}</h3>
                     </div>
                 </div>
