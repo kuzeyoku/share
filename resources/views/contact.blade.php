@@ -8,7 +8,7 @@
                 <div class="col-xl-4 col-lg-4">
                     <div class="contact-two__single">
                         <div class="contact-two__icon">
-                            <span class="icon-call"></span>
+                            @svg("fas-phone-alt")
                         </div>
                         <p>İletişim Telefon</p>
                         <h3><a href="tel:{{ config("contact.phone") }}">{{ config("contact.phone") }}</a></h3>
@@ -20,7 +20,7 @@
                 <div class="col-xl-4 col-lg-4">
                     <div class="contact-two__single">
                         <div class="contact-two__icon">
-                            <span class="icon-envelope"></span>
+                            @svg("fas-envelope")
                         </div>
                         <p>İletişim E-Posta</p>
                         <h3><a href="mailto:{{ config("contact.email") }}">{{ config("contact.email") }}</a></h3>
@@ -32,7 +32,7 @@
                 <div class="col-xl-4 col-lg-4">
                     <div class="contact-two__single">
                         <div class="contact-two__icon">
-                            <span class="icon-location"></span>
+                            @svg("fas-map-marker-alt")
                         </div>
                         <p>İletişim Adres</p>
                         <h3>{{ config("contact.address") }}</h3>
