@@ -40,8 +40,8 @@
                             <h3 class="footer-widget__title">SHARE SLAM</h3>
                         </div>
                         <ul class="footer-widget__link list-unstyled">
-                            <li><a href="electric-panel-repair.html">SHARE Image Module</a></li>
-                            <li><a href="lighting-fixtures.html">SHARE Capture</a></li>
+                            <li><a href="#">SHARE Image Module</a></li>
+                            <li><a href="#">SHARE Capture</a></li>
                         </ul>
                     </div>
                 </div>
@@ -51,9 +51,9 @@
                             <h3 class="footer-widget__title">SUPPORT</h3>
                         </div>
                         <ul class="footer-widget__link list-unstyled">
-                            <li><a href="electric-panel-repair.html">SHARE Data Manager</a></li>
-                            <li><a href="lighting-fixtures.html">Online Model</a></li>
-                            <li><a href="lighting-fixtures.html">About Us</a></li>
+                            <li><a href="#">SHARE Data Manager</a></li>
+                            <li><a href="#">Online Model</a></li>
+                            <li><a href="#">About Us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -66,8 +66,8 @@
                 <p class="site-footer__bottom-text">@lang('front/footer.copyright', ['year' => date('Y'), 'title' => config('general.title')])</p>
                 <ul class="list-unstyled site-footer__bottom-menu">
                     <li><a href="{{ route('contact.index') }}">@lang('front/footer.contact')</a></li>
-                    <li><a href="about.html">@lang('front/footer.terms')</a></li>
-                    <li><a href="about.html">@lang('front/footer.privacy')</a></li>
+                    <li><a href="#">@lang('front/footer.terms')</a></li>
+                    <li><a href="#">@lang('front/footer.privacy')</a></li>
                 </ul>
             </div>
         </div>
