@@ -12,35 +12,35 @@
                     </div>
                     <div class="col-xl-6">
                         <div class="contact-three__right">
-                            <h3 class="contact-three__form-title">Get A Free Quote</h3>
+                            <h3 class="contact-three__form-title">@lang('front/contact.txt1')</h3>
                             {{ html()->form()->route('contact.send')->open() }}
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6">
                                     <div class="contact-three__input-box">
-                                        {{ html()->text('name')->placeholder('Your name')->required() }}
+                                        {{ html()->text('name')->placeholder(__('front/contact.txt2'))->required() }}
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6">
                                     <div class="contact-three__input-box">
-                                        {{ html()->email('email')->placeholder('Your Email')->required() }}
+                                        {{ html()->email('email')->placeholder(__('front/contact.txt3'))->required() }}
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6">
                                     <div class="contact-three__input-box">
-                                        {{ html()->text('phone')->placeholder('Your Phone')->required() }}
+                                        {{ html()->text('phone')->placeholder(__('front/contact.txt4'))->required() }}
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6">
                                     <div class="contact-three__input-box">
-                                        {{ html()->text('subject')->placeholder('Subject')->required() }}
+                                        {{ html()->text('subject')->placeholder(__('front/contact.txt5'))->required() }}
                                     </div>
                                 </div>
                                 <div class="col-xl-12">
                                     <div class="contact-three__input-box text-message-box">
-                                        {{ html()->textarea('message')->placeholder('Your Message')->required() }}
+                                        {{ html()->textarea('message')->placeholder(__('front/contact.txt6'))->required() }}
                                     </div>
                                     <div class="contact-three__btn-box">
-                                        {{ html()->submit()->class('thm-btn contact-three__btn')->text('send a message') }}
+                                        {{ html()->submit()->class('thm-btn contact-three__btn')->text(__('front/contact.txt7')) }}
                                     </div>
                                 </div>
                             </div>
