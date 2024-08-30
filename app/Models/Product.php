@@ -38,7 +38,7 @@ class Product extends Model implements HasMedia
         return $this->whereStatus(StatusEnum::Active->value);
     }
 
-    public function scopeCategory($categories)
+    public function scopeCategory(array $categories)
     {
         return $this->whereIn("category_id", $categories);
     }
