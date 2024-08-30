@@ -38,6 +38,11 @@ class Product extends Model implements HasMedia
         return $this->whereStatus(StatusEnum::Active->value);
     }
 
+    public function scopeCategory($categories)
+    {
+        return $this->whereIn("category_id", $categories);
+    }
+
     public function scopeOrder()
     {
         return $this->orderBy("order")->orderByDesc("id");
@@ -97,7 +102,7 @@ class Product extends Model implements HasMedia
 
     public function getShortDescriptionAttribute()
     {
-        return Str::limit("strip_tags($this->description)", 100);
+        return Str::limit(trim(strip_tags($this->description)), 100);
     }
 
     public function getMetaDescriptionAttribute()
