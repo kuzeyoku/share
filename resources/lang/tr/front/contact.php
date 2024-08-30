@@ -1,7 +1,6 @@
 <?php
 return [
     "title" => "İletişim",
-
     "txt1" => "İletişime Geçin",
     "txt2" => "Adınız ve Soyadınız",
     "txt3" => "E-Posta Adresiniz",

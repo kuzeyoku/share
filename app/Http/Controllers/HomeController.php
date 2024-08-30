@@ -3,11 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\Blog;
-use App\Models\Page;
 use App\Models\Slider;
 use App\Models\Product;
-use App\Models\Project;
-use App\Models\Reference;
 use App\Services\SeoService;
 use Illuminate\Support\Facades\Cache;
 
@@ -16,7 +13,6 @@ class HomeController extends Controller
     public function index()
     {
         SeoService::set();
-
         $data["slider"] = Cache::remember("slider_home_" . app()->getLocale(), config("cache.time"), function () {
             return Slider::active()->order()->get();
         });

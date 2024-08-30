@@ -11,7 +11,7 @@ class ContactController extends Controller
 
     public function index()
     {
-        SeoService::set();
+        SeoService::set(["title" => __("front/contact.title")]);
         return view('contact');
     }
 
