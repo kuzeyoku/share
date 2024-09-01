@@ -58,7 +58,7 @@ class ContactService
         ]);
     }
 
-    private function setEmailSettings()
+    private static function setEmailSettings()
     {
         config([
             'mail.mailers.smtp.host' => config("smtp.host"),
