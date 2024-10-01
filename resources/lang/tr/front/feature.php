@@ -1,17 +1,17 @@
 <?php
 return [
-    'txt1' => 'Technology Powering Your Work',
-    "txt2" => "Microsecond-Level TimeSync 2.0 Synchronization",
-    'txt3' => 'IMU Navigation Technique',
-    'txt4' => 'RTK Real-time Differential Data Algorithm',
-    'txt5' => 'Cost Saving with Multiple Functions',
-    'txt6' => 'Combines integrated oblique photography and orthophotos in one solution.',
-    'txt7' => 'Manpower Saving With GCP-Free Operation',
-    'txt8' => 'Independent POS enables a single operator to complete the entire field data acquisition and processing workflow.',
-    'txt9' => 'Time-Saving With Simple Operation',
-    "txt10" => 'Easy installation and efficient operation, deeply integrated with DJI industry applications.',
-    "txt11" => 'Master of Mapping Lenses',
-    "txt12" => 'Mapping-specific lenses ensure transparent imaging, clear reduction, and a wide-angle view for full coverage with a high overlap rate thoroughness.',
-    "txt13" => 'Energy-Saving Payload',
-    "txt14" => 'CNC aircraft aluminum alloy body support: lightweight, energy-saving, and flight-extending.'
+'txt1' => 'İşinizi Güçlendiren Teknoloji',
+'txt2' => 'Mikrosaniye Seviyesinde TimeSync 2.0 Senkronizasyonu',
+'txt3' => 'IMU Navigasyon Tekniği',
+'txt4' => 'RTK Gerçek Zamanlı Diferansiyel Veri Algoritması',
+'txt5' => 'Çoklu Fonksiyonlar ile Maliyet Tasarrufu',
+'txt6' => 'Entegre eğik fotoğraf ve ortofotoları tek bir çözümde birleştirir.',
+'txt7' => 'GCP\'siz Çalışma ile İnsan Gücü Tasarrufu',
+'txt8' => 'Bağımsız POS, tek bir operatörün tüm saha veri toplama ve işleme iş akışını tamamlamasını sağlar.',
+'txt9' => 'Basit Kullanım ile Zaman Tasarrufu',
+'txt10' => 'Kolay kurulum ve verimli çalışma, DJI endüstri uygulamaları ile derinlemesine entegre edilmiştir.',
+'txt11' => 'Haritalama Lensleri Ustası',
+'txt12' => 'Haritalamaya özel lensler şeffaf görüntüleme, net azaltma ve yüksek örtüşme oranı titizliği ile tam kapsama için geniş açılı bir görüş sağlar.',
+'txt13' => 'Enerji Tasarruflu Faydalı Yük',
+'txt14' => 'CNC uçak alüminyum alaşımlı gövde desteği: hafif, enerji tasarrufu sağlayan ve uçuşu uzatan.'
 ];
