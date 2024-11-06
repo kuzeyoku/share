@@ -12,6 +12,19 @@
             {{ html()->textarea("features[$lang->code]")->placeholder(__("admin/{$folder}.form_features_placeholder"))->rows(5)->class('form-control') }}
         </div>
     @endforeach
+    <div class="row files">
+        <div class="file">
+            <div class="col-lg-6">
+                {{ html()->label(__("admin/{$folder}.form_file_title")) }}
+                {{ html()->text("file_name[]")->placeholder(__("admin/{$folder}.form_file_title_placeholder"))->class("form-control") }}
+            </div>
+            <div class="col-lg-6">
+                {{ html()->label(__("admin/{$folder}.form_file_url")) }}
+                {{ html()->text("file_url[]")->type("url")->placeholder(__("admin/{$folder}.form_file_url_placeholder"))->class("form-control") }}
+            </div>
+        </div>
+    </div>
+    <button type="button" class="btn btn-sm btn-primary mb-3 file-add">Dosya Ekle</button>
     <div class="row">
         <div class="col-lg-6">
             {{ html()->label(__("admin/{$folder}.form_category")) }}
