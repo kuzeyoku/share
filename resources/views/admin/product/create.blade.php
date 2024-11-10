@@ -12,7 +12,6 @@
             {{ html()->textarea("features[$lang->code]")->placeholder(__("admin/{$folder}.form_features_placeholder"))->rows(5)->class('form-control') }}
         </div>
     @endforeach
-    <button type="button" class="btn btn-sm btn-primary mb-3 file-add">Dosya Ekle</button>
     <div class="row">
         <div class="col-lg-6">
             {{ html()->label(__("admin/{$folder}.form_category")) }}
