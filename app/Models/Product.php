@@ -85,10 +85,9 @@ class Product extends Model implements HasMedia
             $featuresLine = array_filter(explode("\r\n", $this->features[$this->locale]), function ($item) {
                 return !empty($item);
             });
-            $result = [];
             array_map(function ($item) use (&$result) {
-                list($key, $value) = explode(":", $item);
-                $result[$key] = $value;
+                list($key, $value) = explode("|", $item);
+                $result[trim($key)] = trim($value);
             }, $featuresLine);
             return $result;
         }
