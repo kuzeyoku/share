@@ -10,6 +10,10 @@ use Illuminate\Database\Eloquent\Model;
 use Spatie\MediaLibrary\InteractsWithMedia;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
+/**
+ * @method static active()
+ * @method static order()
+ */
 class Product extends Model implements HasMedia
 {
     use HasFactory, InteractsWithMedia;
@@ -40,7 +44,7 @@ class Product extends Model implements HasMedia
 
     public function scopeOrder()
     {
-        return $this->orderBy("order")->orderByDesc("id");
+        return $this->orderBy("order", "ASC");
     }
 
     public function translate()
