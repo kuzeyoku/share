@@ -10,10 +10,6 @@ use Illuminate\Database\Eloquent\Model;
 use Spatie\MediaLibrary\InteractsWithMedia;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
-/**
- * @method static active()
- * @method static order()
- */
 class Product extends Model implements HasMedia
 {
     use HasFactory, InteractsWithMedia;
@@ -37,14 +33,14 @@ class Product extends Model implements HasMedia
         $this->locale = session("locale");
     }
 
-    public function scopeActive()
+    public function scopeActive($query)
     {
-        return $this->whereStatus(StatusEnum::Active->value);
+        return $query->whereStatus(StatusEnum::Active->value);
     }
 
-    public function scopeOrder()
+    public function scopeOrder($query)
     {
-        return $this->orderBy("order", "ASC");
+        return $query->orderBy("order", "ASC")->orderBy("id", "DESC");
     }
 
     public function translate()
